@@ -1,0 +1,33 @@
+#divContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+#video{
+    width: 50%;
+    height:60vh
+}
+#h{
+    color: whitesmoke;
+    font-size: 2rem
+}
+
+@media(max-width: 959px){
+    #divContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: -21%
+    }
+    #video{
+        width: 100%
+    }
+    #divH{
+        margin-top: -20%
+    } 
+    #h{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 5% auto 0 auto
+    }
+  }

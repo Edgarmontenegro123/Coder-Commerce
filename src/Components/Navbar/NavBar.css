@@ -1,4 +1,15 @@
 #nav{
-    background-color: hotpink !important;
+    color: whitesmoke;
+    background-color: hotpink
 }
-
+#link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#link:hover{
+    color: rgb(202, 202, 202)
+}
+.fas{
+    margin: auto 1.5rem;
+    font-size: x-large;
+}
